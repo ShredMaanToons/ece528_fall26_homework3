@@ -2,7 +2,7 @@
 
 ### The MSP432 uses the eUSCI_A modules for UART communication. Describe the function of the following registers:
 * UCAxBRW (Baud Rate Control Word)    
-<u>Answer</u> - 
+<ins>Answer</ins> - 
 * UCAxMCTLW (Modulation Control Word)
 * UCAxCTLW0 (Control Word 0)
 * UCAxRXBUF (Receive Buffer)
