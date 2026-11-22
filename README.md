@@ -64,4 +64,13 @@
 * SPI Clock Frequency: 1 MHz
 * SPI format: 3-wire SPI
 * SPI Pins:
-* <i>test</i>
+* <i></i>
+* <i></i>
+* <i></i>
+* <i></i>
+
+
+### If a main program transmits one byte with a value of 0x57, draw the waveforms for:
+* Chip Select (Active Low)
+* SCLK
+* MOSI
