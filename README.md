@@ -59,8 +59,9 @@ void UART2_Init(void)
 ![UART TX data line](images/uart_TX.png)
 
 ### What is the function of the eUSCI_B module? How does SPI communication differ from UART communication in terms of:
+<ins>Answer</ins> - The A module controls UART and SPI, while the B module controls SPI and I2C
 * Synchronization    
-<ins>Answer</ins> - 
+<ins>Answer</ins> - SPI is synchronous, UART is asynchronous
 * Clocking    
 <ins>Answer</ins> - 
 * Signaling    
