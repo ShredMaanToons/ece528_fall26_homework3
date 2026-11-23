@@ -113,7 +113,7 @@ void UART2_Init(void)
 ```
 void EUSCI_B0_SPI_Init(void)
 {
-    EUSCI_B0->CTLW0 = 0xA981 // 1010_1001_1000_0001
+    EUSCI_B0->CTLW0 = 0xA981; // 1010_1001_1000_0001
     EUSCI_B0->BRW = 12;
 
     P1->SEL0 |= 0xE0;
