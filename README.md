@@ -42,12 +42,16 @@
 ```
 void UART2_Init(void)
 {
-    eUSCI_A2->CTLW0 = 0x2081 // 0010_0000_1000_0001
+    eUSCI_A2->CTLW0 = 0x2081; // 0010_0000_1000_0001
 
     P3->SEL0 |= 0x0C;
     P3->SEL1 &= ~0x0C;
 
-    
+    eUSCI_A2->BRW = 104;
+    eUSCI_A2->MCTLW = 0;
+
+    eUSCI_A2->CTLW0 &= ~0x0001;
+    EUSCI_A2->IE &= ~0x000F;
 }
 ```
 
