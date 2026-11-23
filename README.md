@@ -131,8 +131,6 @@ void EUSCI_B0_SPI_Init(void)
 
 ### If a main program transmits one byte with a value of 0x57, draw the waveforms for:
 * Chip Select (Active Low)    
-![Chip Select](images/Chip_Select.png)
 * SCLK    
-![SCLK](images/SCLK.png)
 * MOSI    
 ![MOSI](images/MOSI.png)
